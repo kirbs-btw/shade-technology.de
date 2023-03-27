@@ -1,5 +1,11 @@
+:root{
+  --accent: #ffa70f;
+  --lightMain: #545454;
+}
+
 body{
   margin: 0;
+  font-family: Gotham htf;
 }
 
 .nav{
@@ -17,6 +23,16 @@ body{
   color: #000000;
   font-size: 200%;
   font-family: Gotham htf;
+}
+
+.nav-link:hover{
+  color: var(--accent);
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .main-picture-top{
@@ -37,14 +53,55 @@ body{
   color: #ffffff90;
 }
 
+.information{
+  width: 75%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.information > *{
+  font-size: 150%;
+}
+
+.banner-text{
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+  text-align: center;
+  font-size: 200%;
+  color: var(--lightMain);
+}
+
+.info-text{
+  text-align: center;
+}
+
 .footer{
   width: 100%;
-  background-color: green;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  border-top: 1px solid black;
 }
 
 .footer-right, .footer-left{
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
+  width: 20%;
+  margin-top: 3vh;
+  /* border: solid 1px black; */
+}
+
+.footer-left{
+  font-family: Gotham htf;
+}
+
+.footer-right > a{
+  text-decoration: none;
+  font-family: Gotham htf;
+  color: Black;
+}
+
+.footer-right > a:hover{
+  color: var(--accent);
 }
