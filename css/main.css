@@ -74,6 +74,7 @@ body{
 
 .info-text{
   text-align: center;
+  margin-bottom: 10vh;
 }
 
 .footer{
@@ -100,6 +101,7 @@ body{
   text-decoration: none;
   font-family: Gotham htf;
   color: Black;
+  margin: 0.5vh;
 }
 
 .footer-right > a:hover{
