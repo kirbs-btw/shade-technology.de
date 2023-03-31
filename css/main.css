@@ -25,9 +25,34 @@ body{
   font-family: Gotham htf;
 }
 
-.nav-link:hover{
+/* .nav-link:hover{
   color: var(--accent);
+} */
+
+.hover-underline-animation-nav {
+  display: inline-block;
+  position: relative;
+  padding-bottom: 3px;
 }
+
+.hover-underline-animation-nav::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  transform-origin: bottom left;
+  transition: transform 0.2s ease-out;
+}
+
+.hover-underline-animation-nav:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
 
 .main{
   display: flex;
@@ -152,6 +177,7 @@ body{
 .hover-underline-animation {
   display: inline-block;
   position: relative;
+  padding-bottom: 3px;
 }
 
 .hover-underline-animation::after {
