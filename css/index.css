@@ -1,0 +1,69 @@
+body{
+  margin: 0;
+  font-family: Gotham htf;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-picture-top{
+  width: 100%;
+  height: 30vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../src/top_picture.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.main-picture-top > *{
+  font-family: Gotham Black;
+  font-size: 1000%;
+  color: #ffffff90;
+}
+
+.information{
+  width: 75%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.information > *{
+  font-size: 150%;
+}
+
+.banner-text{
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+  text-align: center;
+  font-size: 200%;
+  color: var(--lightMain);
+}
+
+.bottom-section{
+  widht: 100%;
+  border: solid 1px black;
+}
+
+.info-text{
+  text-align: center;
+  margin-bottom: 10vh;
+}
+
+.picture-info{
+  width: 100%;
+  height: 35vh;
+  background-color: grey;
+  margin-bottom: 5vh;
+}
+
+.picture-one-info{
+  background-image: url(../src/cookie.jpg);
+  background-position: center;
+}
