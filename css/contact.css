@@ -1,0 +1,29 @@
+
+.main-picture-top{
+  width: 100%;
+  height: 20vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../src/pizza.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.main-picture-top > *{
+  font-family: Gotham Black;
+  font-size: 1000%;
+  color: #ffffff90;
+}
+
+.main > *{
+  text-align: center;
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
