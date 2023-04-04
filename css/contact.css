@@ -13,11 +13,12 @@
 
 .main-picture-top > *{
   font-family: Gotham Black;
-  font-size: 1000%;
+  font-size: 800%;
   color: #ffffff90;
 }
 
 .main > *{
+  font-size: 150%;
   text-align: center;
 }
 
@@ -26,4 +27,16 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+@media all and (max-width: 1200px) {
+  .main-picture-top{
+    height: 25vh;
+  }
+  .main-picture-top > *{
+    font-size: 500%;
+  }
+  .main > *{
+    font-size: 200%;
+  }
 }
