@@ -1,4 +1,25 @@
+@font-face {
+    font-family: 'gotham-htf';
+    src: url('../src/font/gothamhtf/gothamhtf-book-webfont.woff2') format('woff2'),
+         url('../src/font/gothamhtf/gothamhtf-book-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gotham-black';
+    src: url('../src/font/gothamblack/gotham_black_regular-webfont.woff2') format('woff2'),
+         url('../src/font/gothamblack/gotham_black_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 :root{
   --accent: #ffa70f;
   --lightMain: #545454;
+}
+
+body{
+  margin: 0;
+  font-family: gotham-htf;
 }
