@@ -46,13 +46,24 @@
   font-size: 250%;
 }
 
-.slide-button:hover{
+/* .slide-button:hover{
   background-color: #b0b0b0;
-  -webkit-transition: 0.2s;
+  -webkit-transition: 0.9s;
+} */
+
+.slide-left-button:hover{
+  background-image: linear-gradient(90deg, #999999 0%, #ffffff 100%);
+  -webkit-transition: 0.9s;
 }
 
+.slide-right-button:hover{
+  background-image: linear-gradient(-90deg, #999999 0%, #ffffff 100%);
+  -webkit-transition: 0.9s;
+}
+
+
 .arrow {
-  border: solid black;
+  border: solid #333333;
   border-width: 0 15px 15px 0;
   display: inline-block;
   padding: 15px;
