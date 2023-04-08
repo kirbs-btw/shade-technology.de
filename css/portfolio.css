@@ -6,18 +6,38 @@
 
 #scroll-container{
   width: 400%;
-  height: 60vh;
+  height: 80vh;
   display: flex;
   transition: transform 0.5s ease-in-out;
 }
 
 .scroll-item{
   width: 25%;
-  height: 60vh;
+  height: 80vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.scroll-item-text-section{
+  padding: 3vh;
+  width: 40%;
+}
+
+.scroll-item-text-section > p{
+  font-size: 120%;
+}
+
+.scroll-item-text-section > h2{
+  font-size: 200%;
 }
 
 .scroll-item-one{
-  background-color: red;
+  background-image: url(../src/gradient.png);
+  background-position: 50% 0%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .scroll-item-two{
@@ -44,6 +64,7 @@
   border: none;
   font-family: gotham-black;
   font-size: 250%;
+  background-color: white;
 }
 
 /* .slide-button:hover{
@@ -77,4 +98,14 @@
 .left {
   transform: rotate(135deg);
   -webkit-transform: rotate(135deg);
+}
+
+@media all and (max-width: 1200px) {
+  .scroll-item-text-section{
+    width: auto;
+  }
+
+  .scroll-item-text-section > p{
+    font-size: 200%;
+  }
 }
