@@ -1,6 +1,6 @@
 count = 0;
 
-slideCount = 4;
+slideCount = 2;
 slidePercent = 100 / slideCount;
 
 function swipeRight(){
