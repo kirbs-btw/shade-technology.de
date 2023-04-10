@@ -5,14 +5,14 @@
 }
 
 #scroll-container{
-  width: 400%;
+  width: 200%;
   height: 80vh;
   display: flex;
   transition: transform 0.5s ease-in-out;
 }
 
 .scroll-item{
-  width: 25%;
+  width: 50%;
   height: 80vh;
   display: flex;
   justify-content: flex-end;
@@ -41,15 +41,10 @@
 }
 
 .scroll-item-two{
-  background-color: green;
-}
-
-.scroll-item-three{
-  background-color: blue;
-}
-
-.scroll-item-four{
-  background-color: yellow;
+  background-image: url(../src/kw-corpde.png);
+  background-position: 50% 0%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .slide-buttons{
@@ -103,6 +98,7 @@
 @media all and (max-width: 1200px) {
   .scroll-item-text-section{
     width: auto;
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);;
   }
 
   .scroll-item-text-section > p{
