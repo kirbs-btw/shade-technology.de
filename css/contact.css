@@ -29,6 +29,7 @@
 /* make those animate when hover ?  */
 
 .main-container-element-1{
+  flex-shrink: 0;
   height: 12.5vw;
   width: 12.5vw;
   background-color: var(--logoColorOne);
@@ -38,6 +39,7 @@
 }
 
 .main-container-element-2{
+  flex-shrink: 0;
   height: 15vw;
   width: 15vw;
   background-color: var(--logoColorTwo);
@@ -47,6 +49,7 @@
 }
 
 .main-container-element-3{
+  flex-shrink: 0;
   width: 0;
   height: 0;
   border: 7.5vw solid transparent;
@@ -56,7 +59,8 @@
 }
 
 .main-container-element-4{
-  height: 9vw;
+  flex-shrink: 0;
+  height: 10vw;
   width: 10vw;
   background-color: var(--logoColorFour);
   transform: translate(-200%);
@@ -97,5 +101,36 @@
   .main-picture-top > h1{
     font-size: 500%;
   }
+
+  .main-container-element-1{
+    flex-shrink: 0;
+    height: 15vw;
+    width: 15vw;
+    transform: translate(150%, 50%);
+    z-index: 1;
+  }
+
+  .main-container-element-2{
+    flex-shrink: 0;
+    height: 15vw;
+    width: 15vw;
+    transform-origin: center;
+    transform: rotateZ(45deg);
+    transform: translate(0, -75%);
+  }
+
+  .main-container-element-3{
+    flex-shrink: 0;
+    transform: translate(-100%, -50%);
+  }
+
+  .main-container-element-4{
+    flex-shrink: 0;
+    height: 10vw;
+    width: 10vw;
+    transform: translate(-200%);
+    z-index: -1;
+  }
+
 
 }
