@@ -13,11 +13,12 @@
 
 .scroll-item{
   width: 50%;
-  height: 80vh;
+  height: 100%;
   display: flex;
   justify-content: flex-end;
   align-items: flex-start;
   flex-direction: column;
+  cursor: pointer;
 }
 
 .scroll-item-text-section{
@@ -104,4 +105,13 @@
   .scroll-item-text-section > p{
     font-size: 200%;
   }
+
+  #scroll-container{
+    height: 60vh;
+  }
+
+  .scroll-item{
+    height: 100%;
+  }
+
 }
