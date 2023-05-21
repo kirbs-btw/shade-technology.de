@@ -96,6 +96,26 @@
   -webkit-transform: rotate(135deg);
 }
 
+.comment-section{
+  width: 100%;
+  min-height: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.comment{
+  width: 90vw;
+  min-height: 10vh;
+  background-color: green;
+  border-radius: 2.5vh;
+  margin-top: 2.5vh;
+  margin-bottom: 2.5vh;
+  padding: 1vh;
+}
+
+
 @media all and (max-width: 1200px) {
   .scroll-item-text-section{
     width: auto;
