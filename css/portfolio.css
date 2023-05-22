@@ -108,8 +108,7 @@
 .comment{
   width: 90vw;
   min-height: 10vh;
-  background-color: green;
-  border-radius: 2.5vh;
+  border-bottom: black 2px solid;
   margin-top: 2.5vh;
   margin-bottom: 2.5vh;
   padding: 1vh;
