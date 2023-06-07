@@ -72,8 +72,47 @@
   border-color: black;
   border-style: dashed;
   border-radius: 15px;
-  margin: 2.5vh;
-  padding: 2.5vh;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  padding: 2vh;
+}
+
+form{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+input, textarea{
+  width: 90%;
+  margin: 1vh;
+  padding: 1vh;
+  font-family: gotham-htf;
+}
+
+textarea{
+  resize: vertical;
+}
+
+button{
+  font-family: gotham-black;
+  margin: 1vh;
+  padding: 1vh;
+  min-width: 92.5%;
+  font-size: 120%;
+  border: none;
+  background-color: var(--logoColorOne);
+  color: white;
+  border-radius: 5px;
+}
+
+
+button:hover{
+  background-color: var(--logoColorTwo);
+  -webkit-transition: 0.9s;
+
 }
 
 
