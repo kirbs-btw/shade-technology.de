@@ -68,13 +68,8 @@
 }
 
 .contact-div{
-  border-width: 1px;
-  border-color: black;
-  border-style: dashed;
-  border-radius: 15px;
-  margin-top: 5vh;
-  margin-bottom: 5vh;
-  padding: 2vh;
+
+
 }
 
 form{
@@ -83,6 +78,13 @@ form{
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  border-width: 1px;
+  border-color: black;
+  border-style: dashed;
+  border-radius: 15px;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  padding: 2vh;
 }
 
 input, textarea{
