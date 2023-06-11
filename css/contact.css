@@ -131,6 +131,13 @@ button:hover{
 }
 
 @media all and (max-width: 1200px) {
+  .main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
   .main-picture-top{
     height: 25vh;
   }
@@ -140,7 +147,7 @@ button:hover{
   }
 
   .main-picture-top > h1{
-    font-size: 500%;
+    font-size: 300%;
   }
 
   .main-container-element-1{
@@ -173,5 +180,14 @@ button:hover{
     z-index: -1;
   }
 
+  .contact-div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  form{
+    width: 80%;
+  }
 
 }
