@@ -4,13 +4,16 @@
   min-height: 70vh;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
 }
 
 h1{
   margin: 1vh;
   margin-top: 5vh;
-  font-size: 400%;
+  font-size: 500%;
+  text-align: center;
+  font-family: gotham-htf;
+  color: var(--logoColorOne);
 }
 
 .services-block{
@@ -19,6 +22,7 @@ h1{
   width: 30%;
   border-radius: 0.5vh;
   -webkit-transition: 0.5s;
+
 }
 
 .block-one{
