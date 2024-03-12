@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/front-body.css">
+    <link rel="stylesheet" href="css/text-body.css">
+    <link rel="stylesheet" href="css/signup-form.css">
+    <link rel="stylesheet" href="css/footer-section.css">
+    <title>sign up</title>
+    
+</head>
+    <body>
+        <div class="front-body">
+            <!-- gradient background-->
+            <div class="content-body">
+                <!-- ordering in columns -->
+                <div class="left-column">
+                    <div class="logo-section">
+                        <img src = "src/logo-small.svg" alt="My Happy SVG" id="logo-icon"/>
+                    </div>  
+                </div>
+                <div class="center-column">
+                    <div class="main-content-section">
+                        <p id="A-PRODUCT-P">A PRODUCT</p>
+                        <h1 id="center-text">TREA</h1>
+                        <p id="BY-SHADE-MEDIA-P">BY SHADE MEDIA</p>
+                        <!-- site main focus = name - center-->
+                    </div>
+                </div>
+                <div class="right-column">
+                    <div class="nav-section">
+                        <div class="nav-items"><a href="">CONTACT</a>  |  <a href="">SIGN UP</a></div>
+                        <!-- nav section top right-->
+                    </div>
+                    <div class="scroll-section">
+                        <p id="schieeb">SCROLL</p>
+                        <!-- scroll text bottom right-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class = "info-section rellax" data-rellax-speed="">
+            <!--
+                putting paralax effect on the picture
+                generating a new one
+            -->
+            <div class="info-text-section">
+                <h1>The world will change</h1>
+                <p>this is the best thing you can do</p>
+            </div>
+        </div>
+        <div class="signup-section">
+            <h2 id="signup-title">Sign up</h2>
+            <!-- some nice looking signup form -->
+            <div class="signup-div">
+                <form action="php/signup.php" method="post" class="signup-form">
+                    <input name="name" type="text" placeholder="name" class="signup-input">
+                    <input name="email" type="text" placeholder="email" class="signup-input">
+                    <br>
+                    <button type="submit" name="buttom" class="signup-button">sign me up!</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-section">
+            <div class="footer-section-left">
+                <p>Here some information about the company we live here and we are good at our job!</p>
+            </div>
+            <div class="footer-section-right">
+                <p>
+                    info@trea.com<br/><br>
+                    Königsberger Str. 35 <br/>   
+                    70131 Esslingen
+                </p>
+            </div>
+        </div>
+    </body>
+    <script src="js/effect.js"></script>
+</html>
