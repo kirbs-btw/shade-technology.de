@@ -143,7 +143,9 @@ button:hover{
   }
 
   .main > *{
-    font-size: 200%;
+    font-size: 100%;
+    color: black;
+    text-decoration: none;
   }
 
   .main-picture-top > h1{

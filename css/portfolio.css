@@ -5,7 +5,7 @@
 }
 
 #scroll-container{
-  width: 200%;
+  width: 300%;
   height: 80vh;
   display: flex;
   transition: transform 0.5s ease-in-out;
@@ -47,6 +47,12 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.scroll-item-three{
+  background-image: url(../src/trea_startup_page.jpg);
+  background-position: 50% 0%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .slide-buttons{
   display: flex;
@@ -61,6 +67,14 @@
   font-family: gotham-black;
   font-size: 250%;
   background-color: white;
+}
+
+.dark-portfolio-text{
+  color: black;
+}
+
+.light-portfolio-text{
+  color: rgb(255, 255, 255);
 }
 
 /* .slide-button:hover{
@@ -122,7 +136,7 @@
   }
 
   .scroll-item-text-section > p{
-    font-size: 200%;
+    font-size: 100%;
   }
 
   #scroll-container{
@@ -132,5 +146,4 @@
   .scroll-item{
     height: 100%;
   }
-
 }

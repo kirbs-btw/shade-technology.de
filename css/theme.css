@@ -17,9 +17,16 @@
 :root{
   --accent: #ffa70f;
   --lightMain: #545454;
+  --logoColorOne: #264653;
+  --logoColorTwo: #2a9d8f;
+  --logoColorThree: #e9c46a;
+  --logoColorFour: #f4a261;
+  --logoColorFive: #e76f51;
+
 }
 
 body{
   margin: 0;
   font-family: gotham-htf;
+  scroll-behavior: smooth;
 }

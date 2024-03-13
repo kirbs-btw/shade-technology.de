@@ -1,7 +1,4 @@
-body{
-  margin: 0;
-  font-family: Gotham htf;
-}
+
 
 .main{
   display: flex;
@@ -9,7 +6,9 @@ body{
   align-items: center;
 }
 
-.main-picture-top{
+/* for a picture */
+
+/* .main-picture-top{
   width: 100%;
   height: 30vw;
   display: flex;
@@ -22,9 +21,65 @@ body{
 }
 
 .main-picture-top > *{
-  font-family: Gotham Black;
+  font-family: gotham-black;
   font-size: 1000%;
   color: #ffffff90;
+} */
+
+/* for the animation */
+
+.main-picture-top{
+  width: 100%;
+  height: 30vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.logo-char{
+  height: 10vw;
+  width: 10vw;
+}
+
+/* hover effect */
+.char-s-logo{
+  transition: transform 1s ease-in-out;
+}
+
+.char-h-logo{
+  transition: transform 1s ease-in-out;
+}
+
+.char-a-logo{
+  transition: transform 1s ease-in-out;
+}
+
+.char-d-logo{
+  transition: transform 1s ease-in-out;
+}
+
+.char-e-logo{
+  transition: transform 1s ease-in-out;
+}
+
+.main-picture-top:hover .char-s-logo{
+  transform: translate(-100%, -100%);
+}
+
+.main-picture-top:hover .char-h-logo{
+  transform: translate(-50%, 100%);
+}
+
+.main-picture-top:hover .char-a-logo{
+  transform: scale(120%);
+}
+.main-picture-top:hover .char-d-logo{
+  transform: translate(50%, -75%);
+}
+
+.main-picture-top:hover .char-e-logo{
+  transform: translate(100%, 100%);
 }
 
 .information{
@@ -59,11 +114,62 @@ body{
 .picture-info{
   width: 100%;
   height: 35vh;
-  background-color: grey;
   margin-bottom: 5vh;
+  overflow: hidden;
 }
 
-.picture-one-info{
+.info-banner-bar{
+  height: 20%;
+  width: 0%;
+}
+
+#info-banner-bar-1{
+  background-color: var(--logoColorOne);
+  transition: width 0.1s;
+}
+
+#info-banner-bar-2{
+  background-color: var(--logoColorTwo);
+  transition: width 0.1s;
+}
+
+#info-banner-bar-3{
+  background-color: var(--logoColorThree);
+  transition: width 0.1s;
+}
+
+#info-banner-bar-4{
+  background-color: var(--logoColorFour);
+  transition: width 0.1s;
+}
+
+#info-banner-bar-5{
+  background-color: var(--logoColorFive);
+  transition: width 0.1s;
+}
+
+/* if picture needed */
+/* .picture-one-info{
   background-image: url(../src/cookie.jpg);
   background-position: center;
+} */
+
+@media all and (max-width: 1200px) {
+  .main-picture-top{
+    height: 25vh;
+  }
+
+  .main > *{
+    font-size: 100%;
+  }
+
+  .main-picture-top > *{
+    font-size: 500%;
+  }
+
+  .logo-char{
+    height: 15vw;
+    width: 15vw;
+  }
+
 }
