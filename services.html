@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Our services for you">
@@ -11,59 +12,42 @@
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/services.css">
-  </head>
-  <body>
+</head>
+
+<body>
     <div class="nav">
-      <input id="menu-toggle" type="checkbox"/>
-      <label for="menu-toggle" class="menu-toggle">
+        <input id="menu-toggle" type="checkbox" />
+        <label for="menu-toggle" class="menu-toggle">
         <span class="bar top-bar"></span>
         <span class="bar middle-bar"></span>
         <span class="bar bottom-bar"></span>
       </label>
-      <a class="nav-link hover-underline-animation-nav nav-link" href="index.html">About us</a>
-      <a class="nav-link hover-underline-animation-nav nav-link" href="services.html">Services</a>
-      <a class="nav-link hover-underline-animation-nav nav-link" href="contact.html">Contact</a>
-      <a class="nav-link hover-underline-animation-nav nav-link" href="portfolio.html">Portfolio</a>
+        <a class="nav-link hover-underline-animation-nav nav-link" href="index.html">About us</a>
+        <a class="nav-link hover-underline-animation-nav nav-link" href="services.html">Services</a>
+        <a class="nav-link hover-underline-animation-nav nav-link" href="contact.html">Contact</a>
+        <a class="nav-link hover-underline-animation-nav nav-link" href="portfolio.html">Portfolio</a>
     </div>
     <div class="main">
-      <h1>Services</h1>
-      <div class="services-block block-one">
-        Wir bauen ihre Webseite
-      </div>
-      <div class="services-block block-two">
-        Helfen ihnen bei der Umstellung
-      </div>
-      <div class="services-block block-three" onclick="location.href='contact.html';">
-        Für weiteres melden sie sich bei uns <br>
-        Tel.: comming soon <br>
-        e-Mail: info@shademedia.de
-      </div>
-    </div>
-    <div class="footer">
-      <div class="footer-top">
-        <div class="footer-left">
-          <h2>Shade-media</h2>
-          <p>
-            We create technology
-          </p>
-          <p>
-            Tel.: comming soon
-            <br>
-            e-mail: info@shademedia.de
-          </p>
+        <h1>Services</h1>
+        <div class="services-block block-one">
+            Wir bauen ihre Webseite
         </div>
-        <div class="footer-right">
-          <a href="portfolio.html" class="hover-underline-animation-footer">portfolio</a>
-          <a href="services.html" class="hover-underline-animation-footer">services</a>
-          <a href="index.html" class="hover-underline-animation-footer">about us</a>
-          <a href="contact.html" class="hover-underline-animation-footer">contact</a>
+        <div class="services-block block-two">
+            Helfen ihnen bei der Umstellung
         </div>
-      </div>
-      <div class="footer-bottom">
-        <a href="datenschutz.html" class="hover-underline-animation-footer">datenschutz</a>
-        <a href="impressum.html" class="hover-underline-animation-footer">impressum</a>
-        <a href="agb.html" class="hover-underline-animation-footer">AGB</a>
-      </div>
+        <div class="services-block block-three" onclick="location.href='contact.html';">
+            Für weiteres melden sie sich bei uns <br> Tel.: comming soon <br> e-Mail: info@shademedia.de
+        </div>
     </div>
-  </body>
+    <div id="footer-container">
+        <script>
+            fetch('footer.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('footer-container').innerHTML = data;
+                });
+        </script>
+    </div>
+</body>
+
 </html>

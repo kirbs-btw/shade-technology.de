@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="We create technology!">
@@ -11,70 +12,57 @@
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/nav.css">
-  </head>
-  <body>
+</head>
+
+<body>
     <div class="nav">
-      <input id="menu-toggle" type="checkbox"/>
-      <label for="menu-toggle" class="menu-toggle">
+        <input id="menu-toggle" type="checkbox" />
+        <label for="menu-toggle" class="menu-toggle">
         <span class="bar top-bar"></span>
         <span class="bar middle-bar"></span>
         <span class="bar bottom-bar"></span>
       </label>
-      <a class="nav-link hover-underline-animation-nav nav-link" href="index.html">About us</a>
-      <a class="nav-link hover-underline-animation-nav nav-link" href="services.html">Services</a>
-      <a class="nav-link hover-underline-animation-nav nav-link" href="contact.html">Contact</a>
-      <a class="nav-link hover-underline-animation-nav nav-link" href="portfolio.html">Portfolio</a>
+        <a class="nav-link hover-underline-animation-nav nav-link" href="index.html">About us</a>
+        <a class="nav-link hover-underline-animation-nav nav-link" href="services.html">Services</a>
+        <a class="nav-link hover-underline-animation-nav nav-link" href="contact.html">Contact</a>
+        <a class="nav-link hover-underline-animation-nav nav-link" href="portfolio.html">Portfolio</a>
     </div>
     <div class="main">
-      <div class="main-picture-top">
-        <img src="src/logo/svg-letters/s-shade.svg" alt="s" class="logo-char char-s-logo">
-        <img src="src/logo/svg-letters/h-shade.svg" alt="h" class="logo-char char-h-logo">
-        <img src="src/logo/svg-letters/a-shade.svg" alt="a" class="logo-char char-a-logo">
-        <img src="src/logo/svg-letters/d-shade.svg" alt="d" class="logo-char char-d-logo">
-        <img src="src/logo/svg-letters/e-shade.svg" alt="e" class="logo-char char-e-logo">
-      </div>
-      <div class="information">
-        <p class="banner-text">We create technology</p>
+        <div class="main-picture-top">
+            <img src="src/logo/svg-letters/s-shade.svg" alt="s" class="logo-char char-s-logo">
+            <img src="src/logo/svg-letters/h-shade.svg" alt="h" class="logo-char char-h-logo">
+            <img src="src/logo/svg-letters/a-shade.svg" alt="a" class="logo-char char-a-logo">
+            <img src="src/logo/svg-letters/d-shade.svg" alt="d" class="logo-char char-d-logo">
+            <img src="src/logo/svg-letters/e-shade.svg" alt="e" class="logo-char char-e-logo">
+        </div>
+        <div class="information">
+            <p class="banner-text">We create technology</p>
 
-        <p class="info-text"> Wir helfen im ganzen Land Unternehmen ihre Pläne zu verwirklichen. Mit uns an ihrer Seite können wir ihre Online-Präsenz ausweiten und ihr Unternehmen für jeden zugänglich gestallten.
-      </div>
-      <div class="picture-info picture-one-info">
-        <div class="info-banner-bar" id="info-banner-bar-1"></div>
-        <div class="info-banner-bar" id="info-banner-bar-2"></div>
-        <div class="info-banner-bar" id="info-banner-bar-3"></div>
-        <div class="info-banner-bar" id="info-banner-bar-4"></div>
-        <div class="info-banner-bar" id="info-banner-bar-5"></div>
-      </div>
-      <div class="information">
-        <p class="info-text">
-          Shade im Jahr 2024 ist ein Technologieunternehmen, agil und beweglich. Immer bedacht auf eine reibungslose Zusammenarbeit mit unseren Kunden.
-        </p>
-      </div>
-    </div>
-    <div class="footer">
-      <div class="footer-top">
-        <div class="footer-left">
-          <h2>Shade-media</h2>
-          <p>
-            We create technology
-          </p>
-          <p>
-            e-mail: info@shademedia.de
-          </p>
+            <p class="info-text"> Wir helfen im ganzen Land Unternehmen ihre Pläne zu verwirklichen. Mit uns an ihrer Seite können wir ihre Online-Präsenz ausweiten und ihr Unternehmen für jeden zugänglich gestallten.
         </div>
-        <div class="footer-right">
-          <a href="portfolio.html" class="hover-underline-animation-footer">portfolio</a>
-          <a href="services.html" class="hover-underline-animation-footer">services</a>
-          <a href="index.html" class="hover-underline-animation-footer">about us</a>
-          <a href="contact.html" class="hover-underline-animation-footer">contact</a>
+        <div class="picture-info picture-one-info">
+            <div class="info-banner-bar" id="info-banner-bar-1"></div>
+            <div class="info-banner-bar" id="info-banner-bar-2"></div>
+            <div class="info-banner-bar" id="info-banner-bar-3"></div>
+            <div class="info-banner-bar" id="info-banner-bar-4"></div>
+            <div class="info-banner-bar" id="info-banner-bar-5"></div>
         </div>
-      </div>
-      <div class="footer-bottom">
-        <a href="datenschutz.html" class="hover-underline-animation-footer">datenschutz</a>
-        <a href="impressum.html" class="hover-underline-animation-footer">impressum</a>
-        <a href="agb.html" class="hover-underline-animation-footer">AGB</a>
-      </div>
+        <div class="information">
+            <p class="info-text">
+                Shade im Jahr 2024 ist ein Technologieunternehmen, agil und beweglich. Immer bedacht auf eine reibungslose Zusammenarbeit mit unseren Kunden.
+            </p>
+        </div>
     </div>
-  </body>
-  <script type="text/javascript" src="js/index-bar-slide.js"></script>
+    <div id="footer-container">
+        <script>
+            fetch('footer.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('footer-container').innerHTML = data;
+                });
+        </script>
+    </div>
+</body>
+<script type="text/javascript" src="js/index-bar-slide.js"></script>
+
 </html>
