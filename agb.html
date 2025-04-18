@@ -15,17 +15,14 @@
 </head>
 
 <body>
-    <div class="nav">
-        <input id="menu-toggle" type="checkbox" />
-        <label for="menu-toggle" class="menu-toggle">
-        <span class="bar top-bar"></span>
-        <span class="bar middle-bar"></span>
-        <span class="bar bottom-bar"></span>
-      </label>
-        <a class="nav-link hover-underline-animation-nav nav-link" href="index.html">About us</a>
-        <a class="nav-link hover-underline-animation-nav nav-link" href="services.html">Services</a>
-        <a class="nav-link hover-underline-animation-nav nav-link" href="contact.html">Contact</a>
-        <a class="nav-link hover-underline-animation-nav nav-link" href="portfolio.html">Portfolio</a>
+    <div id="nav-container">
+        <script>
+            fetch('nav.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('nav-container').innerHTML = data;
+                });
+        </script>
     </div>
     <div class="main">
         <h1>AGB</h1>
