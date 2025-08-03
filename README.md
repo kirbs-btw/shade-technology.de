@@ -1,8 +1,6 @@
-# Shademedia.de
+# shade-technology.de
 
-Here the source code of the website: shademedia.de
-It could be used to create and geberic webiste.
+This repo contains the source code of the shade-technology.de
+company website. 
 
-# general 
-
-Generaly it's just the scaffold for any site to be made. 
+[Link](https://shade-technology.de)
