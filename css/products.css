@@ -27,6 +27,45 @@ h1 {
     -webkit-transition: 0.5s;
 }
 
+.products-section {
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.product-item {
+    width: 100%;
+    min-height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-top: dotted 5px var(--logoColorFour);
+    border-bottom: dotted 5px var(--logoColorFour);
+}
+
+.product-text-section {
+    width: 80%;
+}
+
+.product-link-section {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-link-section>a {
+    font-size: 450%;
+    text-decoration: none;
+    font-family: gotham-htf;
+    color: var(--logoColorTwo);
+}
+
 @media all and (max-width: 1200px) {
     body {
         display: flex;
