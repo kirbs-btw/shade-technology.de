@@ -83,6 +83,21 @@ h1 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    z-index: 1;
+    padding: 0 10px;
+}
+
+.product-link-section a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: var(--accent);
+    z-index: -1;
+    transition: width 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    border-radius: 4px;
 }
 
 .product-link-section a::after {
@@ -96,6 +111,12 @@ h1 {
 
 .product-link-section a:hover {
     transform: translateX(-10px);
+    -webkit-text-fill-color: #ffffff;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product-link-section a:hover::before {
+    width: 100%;
 }
 
 .product-link-section a:hover::after {
@@ -123,7 +144,7 @@ h1 {
         flex-direction: column;
         align-items: center;
     }
-    
+
     .main {
         width: 100%;
         height: auto;
@@ -131,37 +152,37 @@ h1 {
         flex-direction: column;
         align-items: center;
     }
-    
+
     .main h1 {
         font-size: 350%;
     }
-    
+
     .products-section {
         gap: 4vh;
         padding: 2vh 0;
     }
-    
+
     .product-item {
         width: 90%;
         padding: 2vh 3vw;
     }
-    
+
     .product-link-section a {
         font-size: 280%;
     }
-    
+
     .product-link-section a::after {
         right: -35px;
     }
-    
+
     .product-link-section a:hover::after {
         right: -28px;
     }
-    
+
     .product-text-section {
         width: 95%;
     }
-    
+
     .product-text-section p {
         font-size: 110%;
         line-height: 1.6;
@@ -172,11 +193,11 @@ h1 {
     .main h1 {
         font-size: 280%;
     }
-    
+
     .product-link-section a {
         font-size: 200%;
     }
-    
+
     .product-text-section p {
         font-size: 100%;
     }
