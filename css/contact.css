@@ -9,7 +9,8 @@
 }
 
 .main-picture-top>h1 {
-    font-family: gotham-black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
     font-size: 400%;
     /* color: #ffffff90; */
     color: var(--logoColorFive);
@@ -80,7 +81,8 @@ textarea {
     width: 90%;
     margin: 1vh;
     padding: 1vh;
-    font-family: gotham-htf;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
 }
 
 textarea {
@@ -88,7 +90,8 @@ textarea {
 }
 
 button {
-    font-family: gotham-black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
     margin: 1vh;
     padding: 1vh;
     min-width: 92.5%;
@@ -101,6 +104,7 @@ button {
 
 button:hover {
     background-color: var(--logoColorTwo);
+    transition: 0.9s;
     -webkit-transition: 0.9s;
 }
 
@@ -123,17 +127,21 @@ button:hover {
         align-items: center;
         justify-content: center;
     }
+
     .main-picture-top {
         height: 25vh;
     }
+
     .main>* {
         font-size: 100%;
         color: black;
         text-decoration: none;
     }
+
     .main-picture-top>h1 {
         font-size: 300%;
     }
+
     .main-container-element-1 {
         flex-shrink: 0;
         height: 15vw;
@@ -141,6 +149,7 @@ button:hover {
         transform: translate(150%, 50%);
         z-index: 1;
     }
+
     .main-container-element-2 {
         flex-shrink: 0;
         height: 15vw;
@@ -149,10 +158,12 @@ button:hover {
         transform: rotateZ(45deg);
         transform: translate(0, -75%);
     }
+
     .main-container-element-3 {
         flex-shrink: 0;
         transform: translate(-100%, -50%);
     }
+
     .main-container-element-4 {
         flex-shrink: 0;
         height: 10vw;
@@ -160,11 +171,13 @@ button:hover {
         transform: translate(-200%);
         z-index: -1;
     }
+
     .contact-div {
         display: flex;
         align-items: center;
         flex-direction: column;
     }
+
     form {
         width: 80%;
     }

@@ -10,7 +10,8 @@ h1 {
     margin-top: 5vh;
     font-size: 500%;
     text-align: center;
-    font-family: gotham-htf;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
     color: var(--logoColorOne);
 }
 
@@ -75,7 +76,8 @@ h1 {
 .product-link-section a {
     font-size: 400%;
     text-decoration: none;
-    font-family: gotham-htf;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
     color: var(--logoColorTwo);
     transition: all 0.3s ease;
     position: relative;

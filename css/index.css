@@ -1,6 +1,4 @@
-
-
-.main{
+.main {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -21,14 +19,15 @@
 }
 
 .main-picture-top > *{
-  font-family: gotham-black;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
   font-size: 1000%;
   color: #ffffff90;
 } */
 
 /* for the animation */
 
-.main-picture-top{
+.main-picture-top {
   width: 100%;
   height: 30vw;
   display: flex;
@@ -37,63 +36,64 @@
   overflow: hidden;
 }
 
-.logo-char{
+.logo-char {
   height: 10vw;
   width: 10vw;
 }
 
 /* hover effect */
-.char-s-logo{
+.char-s-logo {
   transition: transform 1s ease-in-out;
 }
 
-.char-h-logo{
+.char-h-logo {
   transition: transform 1s ease-in-out;
 }
 
-.char-a-logo{
+.char-a-logo {
   transition: transform 1s ease-in-out;
 }
 
-.char-d-logo{
+.char-d-logo {
   transition: transform 1s ease-in-out;
 }
 
-.char-e-logo{
+.char-e-logo {
   transition: transform 1s ease-in-out;
 }
 
-.main-picture-top:hover .char-s-logo{
+.main-picture-top:hover .char-s-logo {
   transform: translate(-100%, -100%);
 }
 
-.main-picture-top:hover .char-h-logo{
+.main-picture-top:hover .char-h-logo {
   transform: translate(-50%, 100%);
 }
 
-.main-picture-top:hover .char-a-logo{
+.main-picture-top:hover .char-a-logo {
   transform: scale(120%);
 }
-.main-picture-top:hover .char-d-logo{
+
+.main-picture-top:hover .char-d-logo {
   transform: translate(50%, -75%);
 }
 
-.main-picture-top:hover .char-e-logo{
+.main-picture-top:hover .char-e-logo {
   transform: translate(100%, 100%);
 }
 
-.information{
+.information {
   width: 75%;
   display: flex;
   align-items: center;
   flex-direction: column;
 }
 
-.information > *{
+.information>* {
   font-size: 150%;
 }
 
-.banner-text{
+.banner-text {
   margin-top: 10vh;
   margin-bottom: 5vh;
   text-align: center;
@@ -101,49 +101,49 @@
   color: var(--lightMain);
 }
 
-.bottom-section{
-  widht: 100%;
+.bottom-section {
+  width: 100%;
   border: solid 1px black;
 }
 
-.info-text{
+.info-text {
   text-align: center;
   margin-bottom: 10vh;
 }
 
-.picture-info{
+.picture-info {
   width: 100%;
   height: 35vh;
   margin-bottom: 5vh;
   overflow: hidden;
 }
 
-.info-banner-bar{
+.info-banner-bar {
   height: 20%;
   width: 0%;
 }
 
-#info-banner-bar-1{
+#info-banner-bar-1 {
   background-color: var(--logoColorOne);
   transition: width 0.1s;
 }
 
-#info-banner-bar-2{
+#info-banner-bar-2 {
   background-color: var(--logoColorTwo);
   transition: width 0.1s;
 }
 
-#info-banner-bar-3{
+#info-banner-bar-3 {
   background-color: var(--logoColorThree);
   transition: width 0.1s;
 }
 
-#info-banner-bar-4{
+#info-banner-bar-4 {
   background-color: var(--logoColorFour);
   transition: width 0.1s;
 }
 
-#info-banner-bar-5{
+#info-banner-bar-5 {
   background-color: var(--logoColorFive);
   transition: width 0.1s;
 }
@@ -155,19 +155,19 @@
 } */
 
 @media all and (max-width: 1200px) {
-  .main-picture-top{
+  .main-picture-top {
     height: 25vh;
   }
 
-  .main > *{
+  .main>* {
     font-size: 100%;
   }
 
-  .main-picture-top > *{
+  .main-picture-top>* {
     font-size: 500%;
   }
 
-  .logo-char{
+  .logo-char {
     height: 15vw;
     width: 15vw;
   }

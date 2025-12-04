@@ -1,6 +1,4 @@
-
-
-.nav{
+.nav {
   width: 100%;
   display: flex;
   justify-content: space-around;
@@ -8,13 +6,14 @@
   border-bottom: 1px solid black;
 }
 
-.nav-link{
+.nav-link {
   margin-top: 1.5vw;
   margin-bottom: 1.5vw;
   text-decoration: none;
   color: #000000;
   font-size: 200%;
-  font-family: gotham-htf;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
 }
 
 /* .nav-link:hover{
@@ -45,25 +44,25 @@
   transform-origin: bottom left;
 }
 
-#menu-toggle{
+#menu-toggle {
   display: none;
 }
 
-.menu-toggle{
+.menu-toggle {
   display: none;
 }
 
 @media all and (max-width: 1200px) {
-  .nav{
+  .nav {
     flex-direction: column;
   }
 
-  .nav-link{
+  .nav-link {
     font-size: 250%;
     display: none;
   }
 
-  .menu-toggle{
+  .menu-toggle {
     width: 70px;
     height: 60px;
     display: flex;
@@ -74,42 +73,42 @@
     margin-bottom: 1vh;
   }
 
-  .bar{
+  .bar {
     height: 5px;
     width: 100%;
     background-color: black;
     border-radius: 100px;
   }
 
-  .top-bar{
+  .top-bar {
     transform-origin: 0% 0%;
     transition: transform 0.4s ease-in-out;
   }
 
-  .middle-bar{
+  .middle-bar {
     opacity: 1;
     transition: opacity 0.3s ease-in-out;
   }
 
-  .bottom-bar{
+  .bottom-bar {
     transform-origin: 0% 50%;
     transition: transform 0.4s ease-in-out;
   }
 
 
-  #menu-toggle:checked ~ .nav-link{
+  #menu-toggle:checked~.nav-link {
     display: block;
   }
 
-  #menu-toggle:checked ~ .menu-toggle > .top-bar{
+  #menu-toggle:checked~.menu-toggle>.top-bar {
     transform: rotate(45deg) scaleX(1.1);
   }
 
-  #menu-toggle:checked ~ .menu-toggle > .middle-bar{
+  #menu-toggle:checked~.menu-toggle>.middle-bar {
     opacity: 0;
   }
 
-  #menu-toggle:checked ~ .menu-toggle > .bottom-bar{
+  #menu-toggle:checked~.menu-toggle>.bottom-bar {
     transform: rotate(-45deg) scaleX(1.1);
   }
 
