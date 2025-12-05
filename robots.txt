@@ -1,0 +1,11 @@
+# robots.txt für shade-technology.de
+# Generiert für optimale SEO-Indizierung
+
+User-agent: *
+Allow: /
+
+# Sitemap Location
+Sitemap: https://shade-technology.de/sitemap.xml
+
+# Crawl-Delay für höfliches Crawling
+Crawl-delay: 1
