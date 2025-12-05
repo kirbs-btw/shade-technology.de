@@ -1,18 +1,79 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="de" dir="ltr">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Our services for you">
+
+    <!-- SEO Meta Tags -->
+    <meta name="description"
+        content="Entdecken Sie die innovativen Produkte von Shade Technology: mynewplaylist.com für KI-generierte Musik-Playlists und malerwerbung.com für intelligentes Maler-Marketing.">
     <meta name="keywords"
-        content="webseite, website, shade, shadetechnology, shade media, design, technology, services">
-    <title>SHADE</title>
+        content="Shade Technology Produkte, mynewplaylist, KI Playlist, Maler Werbung, Marketing Malerbetrieb, AI Music, Software Produkte">
+    <meta name="author" content="Shade Technology UG (haftungsbeschränkt)">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://shade-technology.de/products.html">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://shade-technology.de/products.html">
+    <meta property="og:title" content="Produkte | Shade Technology">
+    <meta property="og:description"
+        content="Entdecken Sie die innovativen Produkte von Shade Technology: KI-gestützte Lösungen für Musik und Marketing.">
+    <meta property="og:image" content="https://shade-technology.de/src/logo/og-image.png">
+    <meta property="og:locale" content="de_DE">
+    <meta property="og:site_name" content="Shade Technology">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://shade-technology.de/products.html">
+    <meta name="twitter:title" content="Produkte | Shade Technology">
+    <meta name="twitter:description"
+        content="Entdecken Sie die innovativen Produkte von Shade Technology: KI-gestützte Lösungen für Musik und Marketing.">
+    <meta name="twitter:image" content="https://shade-technology.de/src/logo/og-image.png">
+
+    <title>Produkte | Shade Technology - Innovative Software & KI-Lösungen</title>
     <link rel="icon" type="image/x-icon" href="src/logo/svg-letters/a-shade.svg">
     <link rel="stylesheet" href="css/theme.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/products.css">
+
+    <!-- Structured Data / Schema.org -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "name": "Shade Technology Produkte",
+        "description": "Innovative Software-Produkte von Shade Technology",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@type": "SoftwareApplication",
+                    "name": "mynewplaylist.com",
+                    "url": "https://mynewplaylist.com",
+                    "description": "KI-gestützte Playlist-Generierung die den Vibe deiner Musik versteht",
+                    "applicationCategory": "MusicApplication",
+                    "operatingSystem": "Web"
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@type": "SoftwareApplication",
+                    "name": "malerwerbung.com",
+                    "url": "https://malerwerbung.com",
+                    "description": "KI-gestütztes Marketing speziell für Malerbetriebe",
+                    "applicationCategory": "BusinessApplication",
+                    "operatingSystem": "Web"
+                }
+            }
+        ]
+    }
+    </script>
 </head>
 
 <body>
@@ -25,33 +86,31 @@
                 });
         </script>
     </div>
-    <div class="main">
+    <main class="main">
         <h1>Products</h1>
-        <br>
-        <div class="products-section">
-            <div class="product-item">
+        <section class="products-section" aria-label="Unsere Produkte">
+            <article class="product-item">
                 <div class="product-link-section">
-                    <a href="https://mynewplaylist.com">mynewplaylist.com</a>
-
+                    <a href="https://mynewplaylist.com" rel="noopener" target="_blank">mynewplaylist.com</a>
                 </div>
                 <div class="product-text-section">
                     <p>mynewplaylist.com uses cutting-edge AI to build playlists that truly get the vibe of your music.
                         It doesn't just recommend songs — it creates a soundtrack that feels like it came from your own
                         head.</p>
                 </div>
-            </div>
-            <div class="product-item">
+            </article>
+            <article class="product-item">
                 <div class="product-link-section">
-                    <a href="https://malerwerbung.com">malerwerbung.com</a>
+                    <a href="https://malerwerbung.com" rel="noopener" target="_blank">malerwerbung.com</a>
                 </div>
                 <div class="product-text-section">
                     <p>Ein KI-gestütztes Marketing-Produkt speziell entwickelt für Malerbetriebe. Maler Werbung
                         optimiert Ihre Online-Präsenz und hilft Ihnen, neue Kunden zu gewinnen – automatisiert und
                         intelligent.</p>
                 </div>
-            </div>
-        </div>
-    </div>
+            </article>
+        </section>
+    </main>
     <div id="footer-container">
         <script>
             fetch('footer.html')
