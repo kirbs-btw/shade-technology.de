@@ -9,3 +9,19 @@
     align-items: center;
     min-height: 70vh;
 }
+
+.language-label {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 100%;
+    color: var(--logoColorTwo);
+    margin: 1vh 0 2vh 0;
+}
+
+.section-divider {
+    width: 80%;
+    max-width: 600px;
+    border: none;
+    border-top: 2px solid var(--logoColorThree);
+    margin: 4vh 0;
+}

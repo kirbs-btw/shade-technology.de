@@ -12,7 +12,6 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
     font-size: 400%;
-    /* color: #ffffff90; */
     color: var(--logoColorFive);
     z-index: 10;
 }
@@ -20,46 +19,6 @@
 .main-picture-container-element {
     z-index: 0;
 }
-
-
-/* .main-container-element-1 {
-    flex-shrink: 0;
-    height: 12.5vw;
-    width: 12.5vw;
-    background-color: var(--logoColorOne);
-    border-radius: 100%;
-    transform: translate(120%, 30%);
-    z-index: 1;
-}
-
-.main-container-element-2 {
-    flex-shrink: 0;
-    height: 15vw;
-    width: 15vw;
-    background-color: var(--logoColorTwo);
-    transform-origin: center;
-    transform: rotateZ(45deg);
-    transform: translate(-50%, -50%);
-}
-
-.main-container-element-3 {
-    flex-shrink: 0;
-    width: 0;
-    height: 0;
-    border: 7.5vw solid transparent;
-    border-top: 0;
-    border-bottom: 15vw solid var(--logoColorThree);
-    transform: translate(-100%, 30%);
-}
-
-.main-container-element-4 {
-    flex-shrink: 0;
-    height: 10vw;
-    width: 10vw;
-    background-color: var(--logoColorFour);
-    transform: translate(-200%);
-    z-index: -1;
-} */
 
 form {
     width: 100%;
@@ -100,6 +59,7 @@ button {
     background-color: var(--logoColorOne);
     color: white;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 button:hover {
@@ -118,6 +78,46 @@ button:hover {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+/* Contact Info Section */
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 4vh 0;
+}
+
+.contact-email-label {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 120%;
+    color: var(--lightMain);
+    margin: 0 0 1vh 0;
+}
+
+.contact-email {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 150%;
+    color: var(--logoColorTwo);
+    text-decoration: none;
+    padding: 1vh 2vw;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.contact-email:hover {
+    background-color: var(--logoColorTwo);
+    color: white;
+}
+
+.contact-form-intro {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 120%;
+    color: var(--lightMain);
+    margin: 2vh 0;
 }
 
 @media all and (max-width: 1200px) {
@@ -142,36 +142,6 @@ button:hover {
         font-size: 300%;
     }
 
-    .main-container-element-1 {
-        flex-shrink: 0;
-        height: 15vw;
-        width: 15vw;
-        transform: translate(150%, 50%);
-        z-index: 1;
-    }
-
-    .main-container-element-2 {
-        flex-shrink: 0;
-        height: 15vw;
-        width: 15vw;
-        transform-origin: center;
-        transform: rotateZ(45deg);
-        transform: translate(0, -75%);
-    }
-
-    .main-container-element-3 {
-        flex-shrink: 0;
-        transform: translate(-100%, -50%);
-    }
-
-    .main-container-element-4 {
-        flex-shrink: 0;
-        height: 10vw;
-        width: 10vw;
-        transform: translate(-200%);
-        z-index: -1;
-    }
-
     .contact-div {
         display: flex;
         align-items: center;
@@ -180,5 +150,21 @@ button:hover {
 
     form {
         width: 80%;
+    }
+
+    .contact-info {
+        margin: 3vh 0;
+    }
+
+    .contact-email-label {
+        font-size: 100%;
+    }
+
+    .contact-email {
+        font-size: 120%;
+    }
+
+    .contact-form-intro {
+        font-size: 100%;
     }
 }

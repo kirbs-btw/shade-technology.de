@@ -1,11 +1,27 @@
-.main > *{
+.main>* {
   width: 90%;
 }
 
-.main{
+.main {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
   align-items: center;
   min-height: 50vh;
+}
+
+.language-label {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 100%;
+  color: var(--logoColorTwo);
+  margin: 1vh 0 2vh 0;
+}
+
+.section-divider {
+  width: 80%;
+  max-width: 600px;
+  border: none;
+  border-top: 2px solid var(--logoColorThree);
+  margin: 4vh 0;
 }

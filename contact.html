@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="de" dir="ltr">
+<html lang="en" dir="ltr">
 
 <head>
     <meta charset="utf-8">
@@ -7,9 +7,9 @@
 
     <!-- SEO Meta Tags -->
     <meta name="description"
-        content="Kontaktieren Sie Shade Technology - Wir freuen uns auf Ihre Anfrage zu Software-Entwicklung, KI-Lösungen und digitalen Produkten. Jetzt Kontakt aufnehmen!">
+        content="Contact Shade Technology - We'd love to hear from you about software development, AI solutions, and digital products. Get in touch today!">
     <meta name="keywords"
-        content="Shade Technology Kontakt, Anfrage, Software-Entwicklung, KI-Beratung, Technologie Partner, Deutschland">
+        content="Shade Technology contact, inquiries, software development, AI consulting, technology partner, Germany">
     <meta name="author" content="Shade Technology UG (haftungsbeschränkt)">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://shade-technology.de/contact.html">
@@ -17,22 +17,22 @@
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://shade-technology.de/contact.html">
-    <meta property="og:title" content="Kontakt | Shade Technology">
+    <meta property="og:title" content="Contact | Shade Technology">
     <meta property="og:description"
-        content="Kontaktieren Sie Shade Technology - Wir freuen uns auf Ihre Anfrage zu Software-Entwicklung und KI-Lösungen.">
+        content="Contact Shade Technology - We'd love to hear from you about software development and AI solutions.">
     <meta property="og:image" content="https://shade-technology.de/src/logo/og-image.png">
-    <meta property="og:locale" content="de_DE">
+    <meta property="og:locale" content="en_US">
     <meta property="og:site_name" content="Shade Technology">
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="https://shade-technology.de/contact.html">
-    <meta name="twitter:title" content="Kontakt | Shade Technology">
+    <meta name="twitter:title" content="Contact | Shade Technology">
     <meta name="twitter:description"
-        content="Kontaktieren Sie Shade Technology - Wir freuen uns auf Ihre Anfrage zu Software-Entwicklung und KI-Lösungen.">
+        content="Contact Shade Technology - We'd love to hear from you about software development and AI solutions.">
     <meta name="twitter:image" content="https://shade-technology.de/src/logo/og-image.png">
 
-    <title>Kontakt | Shade Technology - Jetzt Anfrage stellen</title>
+    <title>Contact | Shade Technology - Get in Touch</title>
     <link rel="icon" type="image/x-icon" href="src/logo/svg-letters/a-shade.svg">
     <link rel="stylesheet" href="css/theme.css">
     <link rel="stylesheet" href="css/footer.css">
@@ -44,12 +44,13 @@
     {
         "@context": "https://schema.org",
         "@type": "ContactPage",
-        "name": "Kontakt - Shade Technology",
-        "description": "Kontaktformular für Anfragen an Shade Technology",
+        "name": "Contact - Shade Technology",
+        "description": "Contact form for inquiries to Shade Technology",
         "url": "https://shade-technology.de/contact.html",
         "mainEntity": {
             "@type": "Organization",
             "name": "Shade Technology UG (haftungsbeschränkt)",
+            "email": "contact@shade-technology.de",
             "address": {
                 "@type": "PostalAddress",
                 "streetAddress": "Friedhofstraße 16",
@@ -74,21 +75,28 @@
     </div>
     <main class="main">
         <div class="main-picture-top">
-            <h1>Kontakt</h1>
+            <h1>Contact</h1>
         </div>
-        <section class="contact-div" aria-label="Kontaktformular">
-            <form action="php/contact_form_mail.php" method="post" aria-label="Kontaktformular">
-                <label for="contact-name" class="sr-only">Ihr Name</label>
+
+        <section class="contact-info" aria-label="Contact Information">
+            <p class="contact-email-label">Reach us directly at:</p>
+            <a href="mailto:contact@shade-technology.de" class="contact-email">contact@shade-technology.de</a>
+        </section>
+
+        <section class="contact-div" aria-label="Contact Form">
+            <p class="contact-form-intro">Or send us a message:</p>
+            <form action="php/contact_form_mail.php" method="post" aria-label="Contact Form">
+                <label for="contact-name" class="sr-only">Your Name</label>
                 <input type="text" id="contact-name" name="name" placeholder="Name" required aria-required="true">
 
-                <label for="contact-email" class="sr-only">Ihre E-Mail-Adresse</label>
-                <input type="email" id="contact-email" name="mail" placeholder="E-Mail" required aria-required="true">
+                <label for="contact-email" class="sr-only">Your Email Address</label>
+                <input type="email" id="contact-email" name="mail" placeholder="Email" required aria-required="true">
 
-                <label for="contact-message" class="sr-only">Ihre Nachricht</label>
-                <textarea id="contact-message" name="content" rows="8" cols="80" placeholder="Ihre Nachricht an uns..."
-                    required aria-required="true"></textarea>
+                <label for="contact-message" class="sr-only">Your Message</label>
+                <textarea id="contact-message" name="content" rows="8" cols="80" placeholder="Your message..." required
+                    aria-required="true"></textarea>
 
-                <button type="submit" name="button">Nachricht senden</button>
+                <button type="submit" name="button">Send Message</button>
             </form>
         </section>
     </main>
