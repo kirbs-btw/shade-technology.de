@@ -24,21 +24,6 @@
 
 ---
 
-## 🖼️ Preview
-
-<table>
-  <tr>
-    <td align="center"><strong>Homepage</strong></td>
-    <td align="center"><strong>Products</strong></td>
-  </tr>
-  <tr>
-    <td><img src="docs/screenshot-homepage.png" width="400" alt="Homepage Screenshot"></td>
-    <td><img src="docs/screenshot-products.png" width="400" alt="Products Screenshot"></td>
-  </tr>
-</table>
-
----
-
 ## 🚀 About
 
 **Shade Technology UG (haftungsbeschränkt)** is a cutting-edge technology company based in Germany, focused on:
