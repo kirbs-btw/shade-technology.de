@@ -188,8 +188,18 @@
   font-weight: 900;
   font-size: 200%;
   color: var(--logoColorOne);
-  margin-bottom: 4vh;
+  margin-bottom: 1vh;
   text-align: center;
+}
+
+.team-subtitle {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 130%;
+  color: var(--logoColorTwo);
+  margin: 0 0 4vh 0;
+  text-align: center;
+  letter-spacing: 0.3em;
 }
 
 .team-grid {
