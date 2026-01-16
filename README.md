@@ -89,5 +89,5 @@ Have an idea that needs cutting-edge technology? Let's build something together!
 ---
 
 <p align="center">
-  <sub>© 2024 Shade Technology UG (haftungsbeschränkt). All rights reserved.</sub>
+  <sub>© 2026 Shade Technology UG (haftungsbeschränkt). All rights reserved.</sub>
 </p>

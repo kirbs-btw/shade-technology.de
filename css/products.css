@@ -126,6 +126,45 @@ h1 {
     right: -40px;
 }
 
+/* Archived product styles */
+.product-item.archived {
+    filter: grayscale(30%);
+    opacity: 0.85;
+}
+
+.product-item.archived:hover {
+    filter: grayscale(10%);
+    opacity: 0.95;
+}
+
+.product-link-section .product-name {
+    font-size: 400%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    background: linear-gradient(90deg, var(--logoColorTwo), var(--logoColorFour));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    padding: 0 10px;
+}
+
+.archived-badge {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background: linear-gradient(135deg, #6c757d 0%, #495057 100%);
+    color: white;
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
 .product-text-section {
     width: 90%;
     max-width: 800px;
