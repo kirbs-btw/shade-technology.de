@@ -25,3 +25,14 @@
     border-top: 2px solid var(--logoColorThree);
     margin: 4vh 0;
 }
+
+/* User request fixes: Lower font weight for headings and no italics */
+.main h1,
+.main h2,
+.main h3 {
+    font-weight: 400;
+}
+
+address {
+    font-style: normal;
+}
